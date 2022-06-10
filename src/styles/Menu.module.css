@@ -33,6 +33,7 @@
 /* barra de pesquisa*/
 
 .div{
+    display: none;
    margin-top: -25px;
 }
 

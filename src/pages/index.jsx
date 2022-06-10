@@ -32,10 +32,6 @@ const Inicio = () => {
     <Link href="/comentarios">
     <FontAwesomeIcon icon={faComment} className={styles.comment}/></Link>
     <FontAwesomeIcon icon={faBookmark} className={styles.bookmark}/>
-    <span className={styles.twheartbox}>
-       <input className={styles.checktool} type="checkbox" name="name" value=""/>
-    <span className={styles.twheart}></span>
-</span>
   </article>
   <article className={styles.browser}>
     <h2>Mozilla Firefox</h2>

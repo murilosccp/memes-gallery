@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import Link from 'next/link';
-import styles from '../styles/Cadastro.module.css'
+import styles from '../styles/Cadastro.module.scss'
 import Menu from '../components/menu';
 
 
@@ -16,7 +16,7 @@ const Cadastro = () => {
     return (
 
       <>
-      <Menu cor="#b721ff" cor2="#b721ff"/>
+      <Menu cor="#b721ff" cor2="#b721ff" margin="-20px"/>
      <div>
          <div className={styles.Container}>
       <div className={styles.Containerlogin}>

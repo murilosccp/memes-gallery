@@ -1,0 +1,88 @@
+.leftpane {
+    background: #22092e;
+    color: #fff;
+    min-height: 100vh;
+    
+    
+  
+    .container {
+      position: fixed;
+      border: 2px solid #9b26d1;
+      width: 400px;
+      height: 1000px;
+    }
+
+    header img{
+        height: 5.9em; 
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        margin-left: 2em;
+        cursor: pointer;
+    }
+  
+    nav svg {
+      height: 1.3em;
+      margin-right: 0.9em;
+    }
+  
+    nav {
+      padding-left: 3.3em;
+    }
+  
+    nav > *, button.more {
+      text-decoration: none;
+      color: #fff;
+      display: grid;
+      font-size: 1.3em;
+      font-weight: 500;
+      margin-left: -1em;
+      
+      
+      
+     
+  
+      span {
+        display: flex;
+        align-items: center;
+        height: 2.4em;
+        width: fit-content;
+        min-width: 100%;
+        padding: 0 0.7em;
+        cursor: pointer;
+        
+      }
+  
+      &:hover span {
+        color: #ae00ff;
+        border-radius: 1.5em;
+        background: #341f3d;
+      }
+    }
+  
+    nav .selected {
+      color: #1da1f2;
+    }
+  
+    button {
+      background: unset;
+      border: unset;
+    }
+  
+    button.tweet {
+      display: block;
+      background: #1da1f2;
+      color: #fff;
+      width: 14em;
+      height: 3em;
+      border-radius: 1.5em;
+      font-size: 1em;
+      margin-top: 0.5em;
+      margin-left: 3.7em;
+      
+  
+      &:hover {
+        background: #0f90e5;
+      }
+    }
+    
+  }
